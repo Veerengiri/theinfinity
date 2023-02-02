@@ -1,0 +1,351 @@
+@media only screen and (max-width:985px) {
+
+    .navbarmain {
+        padding: 10px;
+
+    }
+
+    .navbar {
+        gap: 10px;
+    }
+
+    .userorder {
+        overflow-x: scroll;
+        /* border: 1px solid white; */
+
+        margin-left: 10px;
+        margin-right: 30px;
+    }
+
+    .tableheading p {
+        width: 100px;
+        /* border: 1px solid white; */
+    }
+
+    .tableheading {
+        width: 1140px;
+        /* gap: 15px; */
+    }
+
+    .specificorders p {
+        text-align: center;
+        width: 100px;
+        /* border: 1px solid white; */
+    }
+
+    #tablemargin {
+        margin-top: 80px;
+    }
+
+    #tablemargin2 {
+        margin-top: 80px;
+    }
+
+    #tablemargin3 {
+        margin-top: 2px;
+    }
+
+    .specificorders {
+        width: 1150px;
+        /* overflow-x: scroll; */
+    }
+
+    .specificorders h3 {
+        width: 100px;
+    }
+
+    .tableadjust {
+        width: 1150px;
+    }
+
+    .tableheading {
+        border: 0;
+    }
+
+    .tablebody {
+        margin-top: 120px;
+    }
+
+    .ordercatagory {
+        position: sticky;
+        margin-bottom: -100px;
+        margin-top: -20px;
+        right: 50px;
+    }
+
+    .hright {
+        height: 60vh;
+    }
+    .registerform input{
+        width: 30vw;
+    }
+    .rleft{
+        height: 500px;
+    }
+    
+    #ordernow,#changeprice,#addtocart,.ordernow{
+        padding: 10vh 35vw;
+    }
+    .ordercatagory{
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+    .ordercatagory button{
+        width: 25vw;
+    }
+}
+
+@media only screen and (max-width:880px) {
+    #footer {
+        padding: 50px 5px;
+        gap: 10px;
+        /* flex-direction: column; */
+    }
+
+    .frr {
+        gap: 10px;
+    }
+
+    .navbar div {
+        gap: 25px;
+    }
+
+    .fleft {
+        width: 30vw;
+    }
+
+    .flast {
+        width: 30vw;
+    }
+
+    .hright {
+        height: 50vh;
+    }
+
+    #ordernow,#changeprice,#addtocart,.ordernow{
+        padding: 10vh 33vw;
+    }
+
+}
+
+@media only screen and (max-width:800px) {
+    .displaynone {
+        display: unset;
+    }
+    .itemsearch{
+        padding: 0;
+    }
+    #navclose {
+        display: none;
+        /* width: 0; */
+        position: absolute;
+        /* overflow: hidden; */
+        right: 25vw;
+        top: 20px;
+        z-index: 3;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+
+    #navbartoggle {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        /* overflow-x: hidden; */
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    @keyframes opennav{
+        from{
+            right: -40vw;
+        }
+        to{
+            right: 0vw;
+            display: unset;
+        }
+    }
+    @keyframes closenav{
+        from{
+            right: 0;
+            
+            
+        }
+        to{
+            right: -40vw;  
+            
+            
+        }
+    }
+    @keyframes navopen {
+        from{
+            right: -10vw;
+        }
+        to{
+            right: 25vw;
+        }
+    }
+    .navbar>div {
+        
+        z-index: 3;
+        margin-top: 80px;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 0;
+        /* display: none; */
+        transition: all 1s;
+        height: 100vh;
+        width: 30vw;
+        background-color: rgba(0, 0, 0, 0.774);
+        padding: 20px;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .navbar>div>div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    #marginright {
+        margin: 0;
+    }
+
+    .navbarmain {
+        padding: 10px 10vw;
+
+    }
+
+    
+    #footer {
+        flex-direction: column;
+    }
+
+    .fleft {
+        width: 70vw;
+    }
+
+    .frr {
+        gap: 10px;
+    }
+
+    .hright {
+        height: 50vh;
+    }
+    .manageadminorder{
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .manageadminorder>div{
+        flex-direction: column;
+    }
+
+
+}
+
+@media only screen and (max-width:650px) {
+    .frr {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .flast {
+        width: 70vw;
+    }
+
+    .hright {
+        display: none;
+    }
+
+    .hleft {
+        padding-top: 150px;
+        padding-bottom: 100px;
+        width: 80vw;
+        /* height: 50vh; */
+        justify-content: center;
+        align-items: center;
+    }
+    .hleft::before{
+        background: url(https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YnVyZ2VyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+        background-repeat: no-repeat;
+        background-position:0px 40px;
+
+        background-size: calc(95%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "";
+        z-index: -1;
+        opacity: 0.5;
+        height: 50vh;
+        width: 100vw;
+    }
+
+    .navbar>div {
+        width: 50vw;
+    }
+    @keyframes opennav{
+        from{
+            right: -60vw;
+        }
+        to{
+            right: 0vw;
+        }
+    }
+    @keyframes closenav{
+        from{
+            right: 0;
+        
+        }
+        to{
+            right: -60vw;
+        }
+    }
+    @keyframes navopen {
+        from{
+            right: -15vw;
+        }
+        to{
+            right: 45vw;
+        }
+    }
+    #navclose {
+        right: 45vw;
+    }
+    .lleft{
+        display: none;
+    }
+    .registerform input{
+        width: 60vw;
+    }
+    #ordernow,#changeprice,#addtocart,.ordernow{
+        padding: 10vh 30vw;
+    }
+}
+@media only screen and (max-width:520px){
+    #ordernow,#changeprice,#addtocart,.ordernow{
+        padding: 10vh 10vw;
+    }
+    #profileinfo{
+        padding: 10px;
+        background-size: cover;
+        width: 80vw;
+        overflow-x: scroll;
+    }
+    .additem>div{
+        width: 80vw;
+    }
+    .ordercatagory button{
+        width: 150px;
+    }
+}
